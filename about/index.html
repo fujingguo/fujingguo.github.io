@@ -3,21 +3,19 @@
 <head>
   <meta charset="utf-8">
   
-  <title>NLP-word2vec | Jagger&#39;s Site</title>
+  <title>About | Jagger&#39;s Site</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
   
   
   
-  <meta name="description" content="NLP word2vec">
-<meta property="og:type" content="website">
-<meta property="og:title" content="NLP-word2vec">
-<meta property="og:url" content="http://yoursite.com/NLP-word2vec/index.html">
+  <meta property="og:type" content="website">
+<meta property="og:title" content="about">
+<meta property="og:url" content="http://yoursite.com/about/index.html">
 <meta property="og:site_name" content="Jagger&#39;s Site">
-<meta property="og:description" content="NLP word2vec">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2020-03-12T09:10:12.000Z">
-<meta property="article:modified_time" content="2020-03-12T09:10:53.698Z">
+<meta property="article:published_time" content="2020-03-12T09:23:21.000Z">
+<meta property="article:modified_time" content="2020-03-12T09:23:22.001Z">
 <meta property="article:author" content="Jingguo Fu">
 <meta name="twitter:card" content="summary">
   
@@ -60,10 +58,32 @@
 
 
   
+  
+  <div class="site-header-image">
+    <img id="originBg" width="100%" alt="Hike News" src="">
+  </div>
+
+  <div id="header-blur" class="site-header-image blur" style="position: absolute; top:0; height: 207px; min-height: 207px; min-width: 100%;">
+    <img id="blurBg" width="100%" style="top: 96%" alt="Hike News" src="">
+  </div>
+
+  <script>
+        var imgUrls = "css/images/pose01.jpg,https://source.unsplash.com/collection/954550/1920x1080,https://source.unsplash.com/collection/954550/1920x1081".split(",");
+        var random = Math.floor((Math.random() * imgUrls.length ));
+        if (imgUrls[random].startsWith('http') || imgUrls[random].indexOf('://') >= 0) {
+          document.getElementById("originBg").src=imgUrls[random];
+          document.getElementById("blurBg").src=imgUrls[random];
+        } else {
+          document.getElementById("originBg").src='/' + imgUrls[random];
+          document.getElementById("blurBg").src='/' + imgUrls[random];
+        }
+    </script>
+
+
 
 
 <header id="allheader" class="site-header" role="banner" 
-   >
+   style="width: 100%; position: absolute; top:0; background: rgba(255,255,255,.8);"  >
   <div class="clearfix container">
       <div class="site-branding">
 
@@ -114,7 +134,7 @@
         
   
     <h1 class="thumb" class="article-title" itemprop="name">
-      NLP-word2vec
+      about
     </h1>
   
 
@@ -122,10 +142,6 @@
     
     <div class="article-meta">
       
-	<a href="/NLP-word2vec/index.html" class="article-date">
-	  <time datetime="2020-03-12T09:10:12.000Z" itemprop="datePublished">March 12, 2020</time>
-	</a>
-
        
       
 	<span id="busuanzi_container_page_pv">
@@ -135,9 +151,7 @@
     </div>
     <div class="article-entry" itemprop="articleBody">
       
-        <p>NLP</p>
-<p>word2vec</p>
-
+        
       
     </div>
     <footer class="entry-meta entry-footer">
@@ -148,7 +162,7 @@
 	<div id="comment">
 	
 	<!-- 多说评论框 start -->
-	 <div class="ds-thread" data-thread-key="/NLP-word2vec/index.html" data-title="NLP-word2vec" data-url="http://yoursite.com/NLP-word2vec/index.html"></div>
+	 <div class="ds-thread" data-thread-key="/about/index.html" data-title="about" data-url="http://yoursite.com/about/index.html"></div>
 	<!-- 多说评论框 end -->
 	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
 	<script type="text/javascript">
@@ -384,6 +398,9 @@
 
 
     <!-- headerblur min height -->
+    
+      var headerblur = document.getElementById("header-blur");
+      headerblur.style.minHeight = window.getComputedStyle(document.getElementById("allheader"), null).height;
     
     
 </script>
