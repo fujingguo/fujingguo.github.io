@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Jagger&#39;s Site</title>
+  <title>Jagger&#39;s Blog</title>
   
-  
+  <subtitle>Artificial Intelligence</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-03-12T09:18:54.074Z</updated>
+  <updated>2020-03-12T10:34:16.477Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,26 +17,19 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://yoursite.com/2020/03/12/hello-world/"/>
-    <id>http://yoursite.com/2020/03/12/hello-world/</id>
-    <published>2020-03-12T09:18:54.126Z</published>
-    <updated>2020-03-12T09:18:54.074Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    <title>Named Entity Recognition</title>
+    <link href="http://yoursite.com/2020/03/12/Named-Entity-Recognition/"/>
+    <id>http://yoursite.com/2020/03/12/Named-Entity-Recognition/</id>
+    <published>2020-03-12T10:23:37.000Z</published>
+    <updated>2020-03-12T10:34:16.477Z</updated>
     
     <summary type="html">
-    
-      
-      
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-      
     
     </summary>
     
     
     
-      <category term="machine learning" scheme="http://yoursite.com/tags/machine-learning/"/>
+      <category term="Natural Language Processing" scheme="http://yoursite.com/tags/Natural-Language-Processing/"/>
     
   </entry>
   
@@ -45,23 +38,22 @@
     <link href="http://yoursite.com/2020/03/12/NLP-word2vec/"/>
     <id>http://yoursite.com/2020/03/12/NLP-word2vec/</id>
     <published>2020-03-12T09:15:17.000Z</published>
-    <updated>2020-03-12T09:18:07.374Z</updated>
+    <updated>2020-03-12T10:19:01.186Z</updated>
     
-    <content type="html"><![CDATA[<p>NLP</p>]]></content>
+    <content type="html"><![CDATA[<p>NLP<br>Amor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;NLP&lt;/p&gt;
-
+        &lt;p&gt;NLP&lt;br&gt;Amor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim v
       
     
     </summary>
     
     
     
-      <category term="nlp" scheme="http://yoursite.com/tags/nlp/"/>
+      <category term="Natural Language Processing" scheme="http://yoursite.com/tags/Natural-Language-Processing/"/>
     
   </entry>
   
